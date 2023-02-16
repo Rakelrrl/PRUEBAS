@@ -1,0 +1,407 @@
+<!DOCTYPE html> <!-- Sin número a partir de la última versión. IMPORTANTE: comentarios -->
+<html lang="es"> <!-- Idioma. Importante para el SEO -->
+
+<head> <!--  Etiqueta lo que el navegador tiene que entender, no se ve, solo para el navegador-->
+  <meta charset="UTF-8"> <!-- Para que use los caracteres especiales, tíldes... -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página1</title> <!-- Título del sitio. Importante para el SEO -->
+  <!-- Botón derecho y Live Server para ver los cambios. Alt + shift + F para organizar el documentos -->
+  <link rel="preload" href="css/style.css" as="style">
+
+  <link href="css/style.css" rel="stylesheet">
+  
+<!--   <style>
+    h2{ /* selector y llave de apertura */
+      color:red; /* propiedad y valor de la propiedad */
+    } /* llave de cierre */
+  </style> -->
+
+</head> <!-- Cierra head -->
+
+<body> <!-- Contenido de la página visible para el usuario-->
+  <!--  <p> --> <!-- Etiqueta para párrafos -->
+  <!--  Hola Mundo -->
+  <!-- </p> --> <!-- Etiqueta de cierre para párrafos -->
+  <header>
+    <nav class="nav1"> <!-- Menú de navegación -->
+      <a href="#">
+        Loging Alumnos
+        <!-- En el # ponemos "https://exp014_20_ed_lote5.iformalia.es/Publico/Portal/htmls/AdeccoRedEs/LoginAlumno.aspx" y después target="_blank" rel="noopener noreferrer"-->
+      </a>
+      <a href="#">
+        Loging Empresas
+        <!-- En el # ponemos "https://exp014_20_ed_lote5.iformalia.es/Publico/Portal/htmls/AdeccoRedEs/LoginEmpresa.aspx" y después target="_blank" rel="noopener noreferrer"-->
+      </a>
+    </nav>
+
+    <br>
+
+    <nav class="nav2">
+      <img src="img/Tu-carrera-digital-general.png" alt="Título tucarreradigital">
+
+      <a href="#">
+        Cursos
+      </a>
+
+      <a href="#">
+        Sobre nosotros
+      </a>
+
+      <a href="#">
+        Infórmate
+      </a>
+    </nav>
+  </header>
+
+  <main class="banner" style="background-image: url(img/banner_zona_centro.png);">
+    <div class="cuadradocoral"></div>
+    <div class="esquema"></div>
+    <div class="class=" col-12="" col-sm-12="" col-md-12="" col-lg-8="" col-xl-8"="">
+      <h1 class="Mando"> <!-- Solo puedes haber un h1. Van del 1-6 y son el comienzo de sección. -->
+        Descubre la formación que te dará la oportunidad de convertirte en un profesional digital.
+      </h1>
+    </div>
+    <!-- <img src="img/banner_zona_centro.png" alt="banner de la página de zona centro, una chica y un chico hablando"> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-braces" width="44" height="44"
+      viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M7 4a2 2 0 0 0 -2 2v3a2 3 0 0 1 -2 3a2 3 0 0 1 2 3v3a2 2 0 0 0 2 2" />
+      <path d="M17 4a2 2 0 0 1 2 2v3a2 3 0 0 0 2 3a2 3 0 0 0 -2 3v3a2 2 0 0 1 -2 2" />
+    </svg> -->
+  </main>
+
+  <img src="img/ico-centro.png" alt="Flecha mayor que negra y blanca hacia la derecha">
+
+  <!--   <button> -->
+  <a href="#">
+    Ver cursos
+  </a>
+  <!--   </button> -->
+
+  <img src="img/ico-flecha-derecha-white.png" alt="flecha blanca hacia derecha">
+
+  <section id="#section1">
+    <div>
+      <img src="img/Logos-oficiales.png" alt="Logos empresas"> <img src="img/Logo-Adecco.png">
+    </div>
+  </section>
+
+  <section id="section2">
+    <h3 class="cursos">
+      Cursos
+    </h3>
+
+    <h2 class="cambiatufuturo">
+      Cambia tu futuro
+    </h2>
+  </section>
+
+  <section class="section3">
+
+    <!--     <button> -->
+    <a href="#">
+      Ver todo
+    </a>
+    <!--     </button> -->
+
+    <!--     <button> -->
+    <a href="#">
+      Alcobendas y la Moraleja
+    </a>
+    <!--     </button> -->
+
+    <!--     <button> -->
+    <a href="#">
+      Carbajos de la Sagrada
+    </a>
+    <!--     </button> -->
+
+    <!--     <button> -->
+    <a href="#">
+      Madrid
+    </a>
+    <!--     </button> -->
+
+    <!--     <button> -->
+    <a href="#">
+      Pozuelo de Alarcón
+    </a>
+    <!--     </button> -->
+
+    <h2 class="titulocurso">
+      Marketing digital
+    </h2>
+
+    <!--     <button> -->
+    <a href="#">
+      Inscribirme
+    </a>
+    <!--     </button> -->
+
+    <!-- <img src="img/Curso-marketing-digital-centro.png" alt="Marketing digital"> -->
+
+    <h2 class="titulocurso">
+      Programación de videojuegos, diseño 3D y realidad virtual
+    </h2>
+
+    <!--     <button> -->
+    <a href="#">
+      Inscribirme
+    </a>
+    <!--     </button> -->
+
+    <!-- <img src="img/Curso-programacion-videojuegos-centro.png" alt="Programación de videojuegos, diseño 3D y realidad virtual"> -->
+
+    <h2 class="titulocurso">
+      Programación web full stack
+    </h2>
+
+    <!--     <button> -->
+    <a href="#">
+      Inscribirme
+    </a>
+    <!--     </button> -->
+
+    <!-- <img src="img/Curso-programacion-web-full-stack-centro.png" alt="Curso programación web full stack centro" -->
+  </section>
+
+  <section class="section4">
+    <h3 class="teinteresa">
+      ¿Te interesa algún otro curso en tu ciudad?
+    </h3>
+
+    <!--     <button> -->
+    <a href="#">
+      ¡Pídenoslo!
+    </a>
+    <!--     </button> -->
+
+  </section>
+
+  <section class="section5">
+    <!-- Vídeo -->
+  </section>
+
+  <section class="section6">
+    <h3>
+      ¿Para quién son estos cursos?
+    </h3>
+
+    <h2>
+      Si quieres dar un giro a tu carrera profesional y formarte en profesiones digitales con futuro, este es tu
+      lugar.
+    </h2>
+
+    <p>
+      Cuando eliges un curso en Tu Carrera Digital, estás dando el paso definitivo hacia las profesiones con más
+      demanda del momento, como Marketing Digital, Desarrollo Web Full Stack y Programación de Videojuegos, Diseño 3D
+      y
+      Realidad Virtual. Nosotros te ofrecemos formación con docentes expertos y contenidos alineados a las necesidades
+      de
+      las empresas. Queremos que saques el máximo partido a estos cursos y que potencies tus posibilidades de
+      encontrar
+      un
+      empleo.
+    </p>
+
+    <h4>
+      Para participar, necesitarás estar inscrito en garantía juvenil
+    </h4>
+
+    <a href="#">
+      Ir a la web de Garantía Juvenil
+    </a>
+
+    <img src="img/ico-flecha-derecha-red.png" alt="flecha roja hacia la derecha">
+
+    <p>
+      Descárgate esta infografía en la que te mostramos cómo descargar tu certificado de Garantía Juvenil:
+    </p>
+
+    <!--     <button> -->
+    <a href="#">
+      Descargar infografía adjunta
+    </a>
+    <!--     </button> -->
+
+    <img src="img/cta_para_quien_centro.png" alt="información de para quién es el curso">
+
+  </section>
+
+  <section class="section7">
+    <h2>
+      Localizaciones
+    </h2>
+
+    <h3>
+      Madrid
+    </h3>
+
+    <p>
+      AVENIDA Manoteras 32 28050, MADRID, MADRID.
+    </p>
+
+    <h3>
+      Pozuelo de Alarcón
+    </h3>
+
+    <p>
+      CALLE San Juan de la Cruz 2 28223, MADRID, MADRID.
+    </p>
+
+    <h3>
+      Madrid
+    </h3>
+
+    <p>
+      CALLE San Sotero 3 Planta 3ª Aula 31 28037, MADRID, MADRID.
+    </p>
+
+    <h3>
+      Carbajosa de la Sagrada
+    </h3>
+
+    <p>
+      CALLE Segunda 43 37188, CASTILLA LEÓN, SALAMANCA.
+    </p>
+
+    <h3>
+      Alcobendas y la Moraleja
+    </h3>
+
+    <p>
+      CALLE Soria 43 28100, MADRID, MADRID.
+    </p>
+  </section>
+
+  <section id="section8">
+    <h3 class="contactar">
+      Contactar
+    </h3>
+
+    <h2 class="dudas">
+      ¿Tienes dudas? Habla con nosotros
+    </h2>
+
+    <img src="img/ico-TLF.png" alt="teléfono">
+
+    <p>
+      Llámanos
+    </p>
+
+    <!--     <button> -->
+    <a href="#">
+      638024408
+    </a>
+    <!--     </button> -->
+
+    <br>
+
+    <img src="img/ico-EMAIL.png" alt="sobre de carta para email">
+
+    <p>
+      Escríbenos
+    </p>
+
+    <!--     <button> -->
+    <a href="#">
+      patri.departearroyo@adecco.com
+    </a>
+    <!--     </button> -->
+
+  </section>
+
+  <br>
+
+  <form> <!-- Genera un formulario. -->
+    <fieldset> <!-- Agrupa campos del formulario. -->
+
+      <legend> <!-- Descricpción del formulario. -->
+        Formulario de tu carrera digital
+      </legend>
+
+      <legend> <!-- Descricpción del formulario dentro. -->
+        Los campos marcados con * son obligatorios
+      </legend>
+      <br>
+
+      <label> <!-- Etiqueta del formulario, campo. -->
+        Nombre*
+        <input type="text" placeholder="Tu nombre">
+        <!-- Input: información pedida al usuario / Type: tipo de input / Placeholder: Texto de ejemplo, guía al usuario y desaparece cuando este comienza al escribir. -->
+      </label>
+      <!-- Al englobar el input en label, facilitamos la interacción con el usuario pudiendo hacer click sobre el label y no solo sobre el input. -->
+
+      <label>
+        Apellidos*
+        <input type="text" placeholder="Tus apellidos">
+      </label>
+      <br><br>
+
+      <label>
+        Tú email*
+        <input type="email" placeholder="ejemplo@hotmail.es">
+      </label>
+      <br><br>
+
+      <label>
+        Mensaje
+        <textarea type="text" placeholder="Déjanos tus dudas"></textarea>
+      </label>
+      <br><br>
+
+      <input type="submit" value="Enviar"> <!-- Input para el "botón" Enviar para el usuario -->
+
+    </fieldset>
+  </form>
+
+  <footer>
+    <!-- <section> -->
+    <h3>
+      Cursos zona-centro
+    </h3>
+
+    <a href="#">
+      <h3>
+        Sobre nosotros
+      </h3>
+    </a>
+
+    <hr>
+    <!-- </section> -->
+
+    <a href="#">
+      Preguntas frecuentes
+    </a>
+
+    <a href="#">
+      Política de cookies
+    </a>
+
+    <a href="#">
+      Política de privacidad
+    </a>
+
+    <a href="#">
+      Aviso legal
+    </a>
+
+    <hr>
+    
+  </footer>
+
+  <img src="img/CTA-informate.png" alt="Bocadillo de texto">
+  <img src="img/up-top.png" alt="Flecha para volver al inicio de la página">
+
+  <!--     <h6> Objetivos
+      <ul>
+        <li>Aprender HTML, CSS y JavaScript</li>
+        <li>Entender Bases de datos</li>
+        <li>Aprovechar el curso para conocer el contenido y organizarme en -torno a el.</li>
+      </ul>
+    </h6> -->
+</body>
+
+</html>
