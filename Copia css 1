@@ -1,0 +1,111 @@
+nav {
+  display: block;
+}
+.nav1 a {
+  color: rgb(247, 102, 102);
+  text-align: right;
+}
+
+.nav2 a {
+  color: black;
+  text-align: right;
+}
+
+.banner {
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 180px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+}
+
+.Mando {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  background-color: rgb(247, 102, 102);
+  background-blend-mode: lighten;
+  margin-bottom: 10px;
+  padding: 70px;
+}
+
+/* element.style {
+  background-image: url(img/banner_zona_centro.png);
+} */
+
+.section3 {
+  font-family: open sans-serif;
+}
+
+.section6 h3, h4, a {
+
+}
+
+#section8 {
+  background-color: #F76666;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+}
+
+
+/* h2 { */
+  /* selector y llave de apertura */
+  /* color: black; */ /* propiedad y valor de la propiedad */
+  /* text-align:center; */
+  /* background-color: #F76666; */
+  /* text-transform: uppercase; */
+  /* margin: 5px;/* me lo aplica por todos los laterales, es lo mismo que poner margin 20px x 20px x 20px x 20px */
+  /* margin-top: 200px; */
+  /* margin-right: 100px;  */
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+/*   font-family: ;
+  font-size: ;
+  border: ;
+  max-width: ;
+  max height: ; */
+  
+/* }llave de cierre */
+
+/* h3 {
+  padding: 100px;
+  margin: 100px;
+  background-color: greenyellow;
+} */
+
+body {
+  font-size: 16px;
+}
+
+
+
+/* body{
+  background-color: black;
+}
+ */
+
+
+
+
+/* Propiedades:
+text align -          alineación del texto
+color -               color de la tipografía
+background-color -    color de fondo
+text-transform -      transformación del texto
+margin -              distancia desde el borde de un elemento hacia...
+padding -             distancia desde el borde de un elemento hasta...
+font-family -         fuente de texto
+font-size -           tamañano de la fuente
+border -              define el borde de un elemento
+max-width -           ancho máximo de un elemento
+max height -          alto máximo de un elemento */
+
+/* UNIDADES DE MEDIDA
+px - me da un valora de medida fija,independientemente de la para
+Em - Se basa en el tamaño que tiene definido el elemento 
+*/
