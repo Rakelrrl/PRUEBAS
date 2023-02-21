@@ -1,0 +1,262 @@
+:root {
+  /* Para crear variables */
+  --Rosita:#F76666;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* nav {
+  display: block;
+} */
+
+/* .parrafo1{
+  background-color: red;
+}
+
+.parrafo2{
+  background-color: cornflowerblue;
+}
+
+.parrafo3{
+  background-color:gold;
+}
+
+.parrafo4{
+  background-color:blueviolet;
+}
+
+.inline{
+  display: inline;
+}
+
+.seguido{
+  display:inline;
+}
+ */
+
+
+.contenedor {
+  width: 114rem;
+  /* Definimos el ancho */
+  margin: 0 auto 0 auto;
+  /* auto:  */
+  /* Poner
+  margin-top: 0;
+  margin-right: auto; con margin left y rigth en auto 
+  margin-bottom: 0;
+  margin-bottom: auto; 
+  es lo mismo */
+  /* Y poner
+  margin: 0 auto; el primero se refiere a top y bottom y el segundo a right y left*/
+  /* Todo esto de los margin  es para centrar*/
+}
+
+.nav1 a {
+  color: rgb(247, 102, 102);
+  text-align: right;
+  padding: 15px 0px 10px 0px;
+}
+
+.nav2 a {
+  color: black;
+  text-align: right;
+}
+
+/* .navmargin{
+  background-color: var(--Rosita);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navpadding{
+  background-color: var(--Rosita);
+  padding-top: 30px;
+  padding-bottom: 30px;
+} */
+
+/* a {
+  text-decoration: none;
+} */
+
+.displayflex{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.colxl-12{
+  flex: 100%; /* 0 0 100% */
+  max-width: 100%;
+}
+
+.colxl-4{
+  flex: 33.33%; /* 0 0 100% */
+  max-width: 33.33%;
+}
+
+.colxl-8{
+  flex: 66.66%; /* 0 0 100% */
+  max-width: 66.66%;
+}
+
+.banner {
+  background-position-x: top;
+  background-position-y: left;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 180px;
+  /*   padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 0px; */
+  background-image: url(../img/banner_zona_centro.png);
+}
+
+/* .cuadrocoral {
+  width: 100%;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+/* .esquema {
+  display: flex;
+  flex: wrap;
+  margin-right: -15%;
+  margin-left: -15%;
+  box-sizing: border-box;
+} */
+
+.Mando {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+/*   display: block; */
+  background-color: rgba(247, 102, 102, 0.65);
+  margin-bottom: 10px;
+  padding: 70px;
+}
+
+/* element.style {
+  background-image: url(img/banner_zona_centro.png);
+} */
+
+/* .section3 {
+  font-family: open sans-serif;
+} */
+
+/* .section6 h3,h4,a {
+  text-transform: uppercase;
+} */
+
+/* .section7 {
+  background-color: black;
+  color: white;
+} */
+
+#section8 {
+  background-color: #F76666;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+/* h2 { */
+/* selector y llave de apertura */
+/* color: black; */
+/* propiedad y valor de la propiedad */
+/* text-align:center; */
+/* background-color: #F76666; */
+/* text-transform: uppercase; */
+/* margin: 5px;/* me lo aplica por todos los laterales, es lo mismo que poner margin 20px x 20px x 20px x 20px */
+/* margin-top: 200px; */
+/* margin-right: 100px;  */
+/* padding-top: 15px; */
+/* padding-bottom: 15px; */
+/*   font-family: ;
+  font-size: ;
+  border: ;
+  max-width: ;
+  max height: ; */
+
+/* }llave de cierre */
+
+/* h3 {
+  padding: 100px;
+  margin: 100px;
+  background-color: greenyellow;
+} */
+
+/* body {
+  font-size: 16px; */
+/*   font-family: var(font-family: 'Babylonica', cursive;);  */
+/* } */
+
+
+
+/* body{
+  background-color: black;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Propiedades:
+text align -          alineación del texto
+color -               color de la tipografía
+background-color -    color de fondo
+text-transform -      transformación del texto
+margin -              distancia desde el borde de un elemento hacia...
+padding -             distancia desde el borde de un elemento hasta...
+font-family -         fuente de texto
+font-size -           tamañano de la fuente
+border -              define el borde de un elemento
+max-width -           ancho máximo de un elemento
+max height -          alto máximo de un elemento */
+
+/* UNIDADES DE MEDIDA
+px - me da un valora de medida fija,independientemente de la para
+Em - Se basa en el tamaño que tiene definido el elemento 
+*/
+/* 
+TIPOS DE SELECTORES 
+De elementos: selccionan todos
+De clases: identificadas con un . y se aplican únicamente a los elementos con esa clase. .banner
+De ID: identificadas con un #, igual que la clase pero id solo puede usarse uno por página. #banner
+*/
+
+/* EJ: .banner p {} --> selecciono los p de la clase banner
+Ej: .banner, p {} --> se aplica a los p y al banner */
+
+/* Nivel de relevancia:
+- Importante
+-ID
+-Class
+-Elemento solico */
+
+
+/* INLINE BLOCK
+
+Todos los elementos en html ya tienen un display por default.
+- Display block: uno debajo del otro.
+- Display inline: uno seguido de otro.
+Ningún elemento tiene un display: flex o un display: grid, adaptan el contenido:
+-  Flexbox: permite dar blabla a los objetos en un única dirección, columna y fila. 
+  - row: fila, aplicado por defecto al definir un display. 
+  - colum: columna, */
